@@ -1,0 +1,19 @@
+:host {
+  --command-accent: oklch(51.01% 0.274 263.83);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 1.5rem;
+  padding: 0.5em 0;
+  list-style: none;
+}
+
+li:hover {
+  color: var(--command-accent);
+  cursor: pointer;
+}
